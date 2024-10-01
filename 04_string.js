@@ -1,6 +1,6 @@
 
 
-var greet = "Food morning";
+var greet = "Food morning Vijay Dude";
 var lengthGreet = greet.length;
 
 console.log(greet,'length of string is:', lengthGreet);
@@ -33,6 +33,33 @@ console.log(`-----------------------------------------------`);
 
 var result = greet.indexOf('m');
 console.log(`Index of the char "m" is ${result}`);
+
+var res = greet.indexOf('Dude');
+console.log(`Index of sub string 'Dude' is : ${res}`);
+
+console.log(`-------------------------------`);
+
+var res = greet.includes('Vijay');
+console.log(`res is ${res}`);
+
+console.log(`-----------------------------------`);
+var result = greet.split(' ');
+console.log(result);
+
+var words = result.length;
+console.log(`Total number of words are : ${words}`);
+
+console.log(`'''''''''''''''''''''''''''''''''''`)
+
+var greet = "          Good Morning          ";
+var result = greet.trim();
+var length = result.length
+console.log(`Before trim string length is : ${greet.length} , After trim string length is ${result} and its length is ${result.length}`);
+
+
+
+
+
 
 
 
