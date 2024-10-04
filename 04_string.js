@@ -55,6 +55,32 @@ var greet = "          Good Morning          ";
 var result = greet.trim();
 var length = result.length
 console.log(`Before trim string length is : ${greet.length} , After trim string length is ${result} and its length is ${result.length}`);
+var resultTrimEnd = greet.trimEnd();
+var trimEndLength = resultTrimEnd.length;
+var endSpaces = greet.length - trimEndLength;
+console.log(` End Spaces is :${endSpaces}`);
+
+console.log(`==================================`);
+var greet = "Good Morning";
+var result = greet.replace(' ',' _');
+console.log(`After replace' ' with '_' string is : ${result}`);
+var result = greet.replace('o', 'O');
+console.log(`result string is : ${result}`);
+
+console.log(`-----------------------------------`);
+var result = greet.slice(5, 15);
+console.log(`Slice form index 5 to till 12 is : ${result}`);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
