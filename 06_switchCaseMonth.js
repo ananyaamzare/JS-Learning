@@ -56,16 +56,22 @@ function monthOfyear(month) {
     console.log(`End of the switch case..`);
   }
   
-  monthOfyear(6);
-  monthOfyear(8);
+  
+  monthOfyear(2);
   monthOfyear(9);
   monthOfyear(3);
   monthOfyear(3);
-  monthOfyear(2);
   monthOfyear(8);
   monthOfyear(1);
   monthOfyear(0);   // Invalid input
   monthOfyear(12);
   monthOfyear(123); // Invalid input
   monthOfyear(11);
+
+const array1 = [1, 2, 3, 4];
+const array2 = [3, 4, 5, 6];
+
+
+
+
   
