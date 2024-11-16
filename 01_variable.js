@@ -8,4 +8,9 @@ var city = "pune";
 console.log(city);
 
 var pin // var declasration
-console.log(pin); // undefined 
+console.log(pin); // undefined
+
+
+
+
+ 

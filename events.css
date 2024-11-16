@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid black;
+}
+
+/* DOM Manipulation Kya Hota Hai?
+In JavaScript, DOM manipulation ka matlab hai webpage 
+ke HTML elements ko modify karna, add karna, ya remove karna. 
+Yeh JavaScript ke zariye hota hai, jisse webpage ka content aur
+ appearance
+ bina page reload kiye hi change ho sakta hai. */

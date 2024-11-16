@@ -24,7 +24,7 @@ checkType();
 
 console.log('__Function with argument and return value__');
 
- // this is nameFunction
+//  this is nameFunction
 
 function addition(arg1, arg2, arg3){
     console.log('Value are:' , arg1, arg2, arg3);
@@ -57,6 +57,40 @@ function bankDetails(bankName, accountNum, location, pinCode) {
  bankDetails("CITIbank", 295736957447, 'pune', 444389);
  bankDetails("Axis bank", 92384103848, 'mumbai', 444607);
  bankDetails("HDFC bank", 233948573948, 'nagpur', 444720,'open');
+
+ function checkVal(value){
+    console.log('value is :',value);
+    console.log('type is:',typeof value);
+    console.log(`___________________________________________`);
+ }
+
+ checkVal("Anu");
+ checkVal(45678);
+ checkVal("pune");
+ checkVal(true);
+ checkVal("no");
+ checkVal(null);
+ checkVal(undefined);
+
+ console.log(`=================end==================`);
+ 
+ function  myDetails(){
+    console.log('my Name is Ananya !');
+    console.log('i Know coding');
+ }
+ myDetails();
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 
 

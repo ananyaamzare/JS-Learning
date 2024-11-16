@@ -1,11 +1,11 @@
 
 
 class Student {
-    // fullName;
-    // rollNo;
-    // college;
-    // emailId;
-    // mobileNo;
+    fullName;
+    rollNo;
+    college;
+    emailId;
+    mobileNo;
     constructor( fullName, rollNo,college,emailId,mobileNo,){
     this.fullName = fullName;
     this.rollNo = rollNo;
@@ -41,17 +41,7 @@ for (const Student of arrayStudent) {
     Student.show();
 }
 
-
-
-
-
-
-
-
-
-
-
-
+console.log(`-----------------------------------------------------------`);
 
 personAA = {
     name: "Ananya",

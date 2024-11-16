@@ -1,6 +1,4 @@
 
-
-
 var firstName = "Anu";
 var age = "32";
 var isPass = "yes";

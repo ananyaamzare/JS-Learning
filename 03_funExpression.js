@@ -28,3 +28,45 @@ var wordCount = function(word) {
 
 var result = wordCount(" I am a UI developer"); 
 console.log(`Word count: ${result}`);
+
+
+var myJob = function() {
+    console.log("i have know of js");
+    
+}
+myJob();
+console.log(typeof myJob);
+
+
+var addNum = function( a, b){
+      console.log('addition of a+b =>',a+b);
+}
+addNum(5,8);
+addNum(873,8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

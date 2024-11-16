@@ -25,6 +25,28 @@ console.log(num1, num2, num3)
 
 console.log('----------------------------');
 
+var A=10;
+var B=20;
+
+A = A+B;
+B = A-B;
+A = A-B;
+
+console.log(A);
+console.log(B);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
