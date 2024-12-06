@@ -23,7 +23,9 @@ function fibonacci(n) {
     return fibonacci(n - 1) + fibonacci(n - 2); // Recursive calls
 }
 
-console.log(fibonacci(5)); // Output: 5
+console.log(fibonacci(10)); // Output: 5
+
+
 
 
 

@@ -1,27 +1,27 @@
 
 
-var num1 = 100;
-var num2 = 200;
+// var num1 = 100;
+// var num2 = 200;
 
-var temp = num1;
-var num1 = num2;
-var num2 = temp;
+// var temp = num1;
+// var num1 = num2;
+// var num2 = temp;
 
-console.log(num1,num2);
+// console.log(num1,num2);
 
-console.log('_______________');
+// console.log('_______________');
 
-var num1 = 100;
-var num2 = 200;
-var num3 = 300;
+// var num1 = 100;
+// var num2 = 200;
+// var num3 = 300;
 
-temp = num1
+// temp = num1
 
-num1 = num2;
-num2 = num3;
-num3 = temp;
+// num1 = num2;
+// num2 = num3;
+// num3 = temp;
 
-console.log(num1, num2, num3)
+// console.log(num1, num2, num3)
 
 console.log('----------------------------');
 

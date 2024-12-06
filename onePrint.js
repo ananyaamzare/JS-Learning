@@ -1,9 +1,9 @@
-const arr = [1,2,3,4];
+// const arr = [1,2,3,4];
 
-let a = arr.map((val)=>{
-    return val*val
-})
-console.log(a);
+// let a = arr.map((val)=>{
+//     return val*val
+// })
+// console.log(a);
 
 // const array = [2,3,4,5,57,8,554,5,66];
 
@@ -68,20 +68,45 @@ console.log(a);
 // const n = 10; // Number of Fibonacci numbers to generate
 // console.log(generateFibonacci(n));
 
-const n = 10;
-a = 0 ;
-b = 1;
-console.log(a);
-if (a > 1) {
-    console.log(b)
-}
-for (let i = 2 ; i < n; i++) {
+// const n = 10;
+// a = 0 ;
+// b = 1;
+// console.log(a);
+// if (a > 1) {
+//     console.log(b)
+// }
+// for (let i = 2 ; i < n; i++) {
 
-    let next = a + b;
-    console.log(next);
-    a = b;
-    b = next 
-}
+//     let next = a + b;
+//     console.log(next);
+//     a = b;
+//     b = next 
+// }
+
+
+// fibonacci
+// let n = 10 ;
+
+// let a = 0 , b = 1;
+
+// console.log(a);
+// console.log(b);
+
+// for (let i = 2; i<n; i++){
+//     let c = a+b;
+//     console.log(c);
+// a=b;
+// b=c;
+// }
+
+let array = [2,5,6,7,8,9];
+
+let result = array.map((item)=>{
+    return item<=9 ? item : 0
+
+})
+console.log(result)
+
 
 
 
