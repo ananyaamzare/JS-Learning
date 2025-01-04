@@ -99,13 +99,150 @@
 // b=c;
 // }
 
-let array = [2,5,6,7,8,9];
+// let array = [2,5,6,7,8,9];
 
-let result = array.map((item)=>{
-    return item<=9 ? item : 0
+// let result = array.map((item)=>{
+//     return item<=9 ? item : 0
 
-})
-console.log(result)
+// })
+// console.log(result)
+
+// let n=6
+// for (let i=1; i<=n; i++) {
+    
+//     console.log("*".repeat(i));
+    
+//   }
+
+// let n=400;
+// for(let i=1; i<=n;i++){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+// }
+  
+
+// let n=50;
+// let arr = [];
+// for(let i=1;i<n;i++){
+//   return arr.reduce()
+// }
+
+
+// let n=10;
+// let sum=1;
+// for(let i=1;i<=n;i++){
+//   if(i % 2 != 0){
+//    sum = sum*i;
+//    console.log(sum);
+//   }
+// }
+
+
+// let n=10;
+// let sum=1;
+// for(let i=1;i<=n;i++){
+//   if(i % 2 != 0){
+//    sum = sum*i;
+//   }
+// }
+// console.log(sum);
+
+// let num = 100;
+// for(let i=1; i<=num; i++){
+//   if(i%5===0){
+//     console.log(i)
+//   }
+// }
+
+// 1 to 1000 ;
+// 1 , 10, 12, 13, 1000;
+
+// for(let i=1; i<=1000 ; i++){
+//   let str = i.toString();
+//   let count = 0;
+
+//   for(let char of str){
+//     if(char === "1"){
+//       count ++;
+//     }
+//   }
+//   if(count === 1){
+//     console.log(i)
+//   }
+// }
+
+
+// let n = 1000;
+// for(let i=1; i<=n; i++){
+//     let c = 0;
+//     for(let j=i; j>0; j=Math.floor(j / 10)){
+//         if(j%10 == 1){
+//             c++;
+//         }
+//     }
+//     if(c == 1){
+//         console.log(i);
+//     }
+// }
+
+// for(let i=1;i<=100;i++){
+//     console.log(i)
+// }
+
+
+// let year=2023;
+
+// if(year%4==0){
+//     console.log("its a leap year")
+// }else{
+//     console.log(" its not a leap year")
+// }
+
+// let a = 34;
+// let b = 56;
+// console.log(a+b)
+
+// let num=33;
+
+// if(num%2==0){
+//     console.log("this is even number")
+// }
+// else{
+//     console.log("this is odd number")
+// }
+
+// for(let i = 1; i<=50; i++){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+// }
+
+// function outerFun(){
+//     let outervar = "i am the big coder";
+
+//     function innerFun() {
+//         let innervar = " I am jr. coder";
+//     }
+
+//     return innerFun()
+// }
+// const mainFun = outerFun;
+// mainFun();
+
+function outer (){
+    let message = "hello karuna";
+  
+   function inner (){
+    console.log(message);
+    
+   }
+   return inner ;
+  }
+  outer();
+
+
+
 
 
 

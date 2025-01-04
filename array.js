@@ -94,7 +94,6 @@ console.log(removeElement);
 var array6 = [10 , 20 , 30 , 10 , 50 , 90, 70];
 array.splice(4,4);
 console.log(array6);
-
 array.splice(array.length-2,2);
 
 

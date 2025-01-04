@@ -1,6 +1,6 @@
 
 
-//in var case if we did console filst and then declare so it will show undifined
+//in var case if we did console first and then declare so it will show undifined
 //let and const throw ref error coz its in TDZ(temprol dead zone) until the decleare
 //function is fully hoisting
 

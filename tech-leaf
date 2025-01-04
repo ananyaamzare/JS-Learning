@@ -1,0 +1,205 @@
+// const user = {
+//     name: "Ananya",
+//     age: 24,
+//     mark:90,
+//     printMark: function(){
+//         console.log(" mark = ",this.mark);
+//     }
+// }
+// printMark();
+// console.log(user.name);
+// console.log(user.age);
+
+
+// const data = {
+//     name: "Ananya",
+//     city: "banglore",
+//     age:24,
+//     job:"Software Engineer",
+//     isMarried: "No"
+    
+// }
+// const entries = Object.entries(data);
+// console.log(entries);
+
+// const person = {
+//     name: "John", 
+//     age: 30, 
+//     city: "New York" 
+    
+// };
+// Object.keys(person).forEach(key => {
+//   console.log(key); 
+// });
+
+// function outerFunction() {
+//     let outerVariable = "I'm from the outer function";
+
+//     function innerFunction() {
+//         console.log(outerVariable); // Accessing the variable from the outer scope
+//     }
+
+//     return innerFunction; // Returning the inner function
+// }
+
+// const closureFunction = outerFunction(); // outerFunction is called
+// closureFunction(); // Output: "I'm from the outer function"
+
+
+// function outerFun(){
+//     let outervar = "i am the big coder.";
+
+//     function innerFun() {
+//         let innervar = " I am jr. coder";
+//         console.log(outervar)
+//     }
+
+//     return innerFun();
+// }
+// outerFun();
+
+// function outer (){
+//     let message = "hello karuna";
+  
+//   function inner (){
+//     console.log(message);
+    
+//   }
+//   return inner() ;
+//   }
+//   outer();
+
+// function outerFunction() {
+//     let count = ;
+
+//     return function increment() {
+//         count++;
+//         console.log(count); // Lexical scope allows access to 'count'
+//     };
+// }
+
+// const counter = outerFunction(); // Closure is created
+// counter(); // Output: 1
+// counter(); // Output: 2
+
+
+
+
+// name=["dee_nu","ree_ma","gee_ta"];
+
+// const myName =name.map(()=>{
+//     const parts = parts.split("_");
+//     return parts[0] + parts[1];
+// })
+// console.log(myName);
+
+
+// const names = ["dee_nu", "ree_ma", "gee_ta"];
+
+// const myName = names.map(name => {
+//     const letter = name.split('_');
+//     return letter[0] + letter[1]; 
+// });
+// console.log(myName); 
+// const names = ["dee_nu", "ree_ma", "gee_ta"];
+// for (let i = 0; i < names.length; i++) {
+//     names[i] = names[i].replace("_", "");
+// }
+// console.log(names);
+
+// arr=[1,,3,[4,5,6],7,[8,9,10],11];
+// output=[1,2,3,4,5,6,7,8,9,10,11];
+
+// let arr1 = [1, 3, [4, 5, 6], 7, [8, 9, 10], 11];
+// let result = [];
+
+// for (let i = 0; i < arr1.length; i++) {
+//     if (Array.isArray(arr1[i])) {
+//         // If it's an array, loop through it and push its elements to result
+//         for (let j = 0; j < arr1[i].length; j++) {
+//             result.push(arr1[i][j]);
+//         }
+//     } else {
+//         // If it's not an array, just push the element to result
+//         result.push(arr1[i]);
+//     }
+// }
+
+// console.log(result); // Output: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+
+
+// let arr = [1, 3, [4, 5, 6], 7, [8, 9, 10], 11];
+// let result = [];
+// let i = 0;
+
+// while (i < arr.length) {
+//     if (Array.isArray(arr[i])) {
+//         // Loop through the sub-array and push its elements to result
+//         let j = 0;
+//         while (j < arr[i].length) {
+//             result.push(arr[i][j]);
+//             j++;
+//         }
+//     } else {
+//         // Push non-array elements directly to result
+//         result.push(arr[i]);
+//     }
+//     i++;
+// }
+// console.log(result);// Output: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+
+// rest parameter
+
+// spred oprater
+
+// pass by value pass by  refrance
+
+
+let a = 16;
+let b = 14;
+let c = 13;
+
+if(a>b && b>c && c<a){
+    console.log(`largest num - ${a}`)
+} 
+if(b>a && c>b && a>c ){
+    console.log(`largest num - ${b}`)
+}
+if(c>a && c>b ){
+    console.log(`largest num - ${c}`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

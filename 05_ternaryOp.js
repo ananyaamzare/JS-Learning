@@ -11,7 +11,7 @@ console.log(res);
 
 var num = 50 ;
 var res = num%2 == 0 ? "EVEN" : "ODD";
-console.log(res);
+console.log(res); 
 
 
 
